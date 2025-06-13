@@ -45,6 +45,15 @@ fun printHelloWorld() {
 
     //arrays, lists, loops
 
+    for (int in 1..3) {
+        println("This is a loop")
+    }
+
+    var name1: Int = 10
+    var name2 = name1 ?: 20
+
+    println(name2)
+
 }
 
 fun main() {
